@@ -35,7 +35,6 @@ namespace Unit02.Game
             }
         }
 
-
         /// <summary>
         /// Displays current card and prompts for guess.
         /// </summary>
@@ -50,7 +49,7 @@ namespace Unit02.Game
         }
 
         /// <summary>
-        /// Updates the player's score.
+        /// Updates the player's score and gets new card values
         /// </summary>
         public void DoUpdates(Card currentCard, Card nextCard)
         {
